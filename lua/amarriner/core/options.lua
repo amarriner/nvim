@@ -26,3 +26,5 @@ opt.splitbelow = true
 
 opt.iskeyword:append("-")
 
+vim.g.lazyvim_python_lsp = "pyright"
+

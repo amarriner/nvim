@@ -14,7 +14,9 @@ null_ls.setup({
 		formatting.stylua,
 		formatting.beautysh,
 		diagnostics.eslint_d,
-		diagnostics.flake8,
+		diagnostics.flake8.with({
+			extra_args = { "--ignore=E501" },
+		}),
 		diagnostics.hadolint,
 		diagnostics.curlylint,
 		formatting.jq,

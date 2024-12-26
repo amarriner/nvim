@@ -1,4 +1,4 @@
 return {
-  "jose-elias-alvarez/null-ls.nvim",
-  "jayp0521/mason-null-ls.nvim"
+	"jose-elias-alvarez/null-ls.nvim",
+	"jay-babu/mason-null-ls.nvim",
 }

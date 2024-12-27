@@ -13,7 +13,7 @@ null_ls.setup({
 		formatting.prettier,
 		formatting.stylua,
 		formatting.beautysh,
-		diagnostics.eslint_d,
+		-- diagnostics.eslint,
 		diagnostics.flake8.with({
 			extra_args = { "--ignore=E501" },
 		}),
@@ -22,7 +22,7 @@ null_ls.setup({
 		formatting.jq,
 		diagnostics.markdownlint,
 		formatting.dprint,
-		formatting.eslint_d,
+		-- formatting.eslint,
 	},
 	-- configure format on save
 	on_attach = function(current_client, bufnr)
